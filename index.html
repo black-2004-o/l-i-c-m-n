@@ -2,22 +2,30 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lời chúc gửi bfancy</title>
+
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
+            padding: 16px;
             background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
             font-family: 'Segoe UI', sans-serif;
         }
 
         .card {
             background: rgba(255, 255, 255, 0.96);
-            padding: 30px 35px;
-            max-width: 500px;
+            padding: clamp(20px, 4vw, 32px);
+            width: 100%;
+            max-width: 520px;
             border-radius: 22px;
             box-shadow: 0 18px 40px rgba(0,0,0,0.25);
             text-align: center;
@@ -25,30 +33,33 @@
         }
 
         .avatar {
-            width: 120px;
-            height: 120px;
+            width: clamp(90px, 30vw, 120px);
+            height: clamp(90px, 30vw, 120px);
             border-radius: 50%;
             object-fit: cover;
             border: 4px solid #ff5fa2;
-            margin-bottom: 15px;
+            margin-bottom: 14px;
         }
 
         h1 {
             color: #ff5fa2;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
+            font-size: clamp(22px, 5vw, 28px);
         }
 
         .name {
-            font-size: 20px;
+            font-size: clamp(16px, 4.5vw, 20px);
             font-weight: bold;
             color: #333;
-            margin-bottom: 15px;
+            margin-bottom: 14px;
         }
 
         p {
-            font-size: 16px;
+            font-size: clamp(14.5px, 4vw, 16px);
             color: #444;
-            line-height: 1.7;
+            line-height: 1.8;
+            text-align: left;
+            margin-bottom: 12px;
         }
 
         .highlight {
@@ -56,16 +67,18 @@
             font-weight: 600;
         }
 
-        .date {
-            margin-top: 15px;
-            font-style: italic;
-            color: #666;
-        }
-
         .signature {
             margin-top: 18px;
             font-weight: 600;
+            font-size: clamp(14px, 4vw, 16px);
             color: #333;
+        }
+
+        .date {
+            margin-top: 12px;
+            font-style: italic;
+            font-size: clamp(13px, 3.8vw, 15px);
+            color: #666;
         }
 
         @keyframes fadeIn {
@@ -80,57 +93,57 @@
         }
     </style>
 </head>
+
 <body>
 
 <div class="card">
-    <!-- Thay link ảnh avatar tại đây -->
     <img src="z7447911524425_ed7097b172383ec8066fa324ed4f5b31.jpg" alt="Avatar" class="avatar">
 
     <h1>💖 Gửi bfancy 💖</h1>
 
-    <div class="name">Trần Huỳnh Trung Hiếu </div>
+    <div class="name">Trần Huỳnh Trung Hiếu</div>
 
     <p>
-    Cảm ơn <span class="highlight">bfancy</span> vì khoảng thời gian
-    <span class="highlight">3 tháng</span> vừa qua.
-    Với mình, đó không chỉ là những ngày trôi qua bình thường,
-    mà là những khoảnh khắc đáng nhớ,
-    nơi mình cảm nhận được sự quan tâm, lắng nghe
-    và những chia sẻ rất chân thành.
-</p>
+        Cảm ơn bfancy vì khoảng thời gian 3 tháng vừa qua.
+        Với mình, đó không chỉ là những ngày trôi qua bình thường,
+        mà là những khoảnh khắc thật sự đáng nhớ — nơi mình cảm nhận được
+        sự quan tâm, lắng nghe và những chia sẻ rất chân thành.
+    </p>
 
-<p>
-    Trong suốt quãng thời gian đó,
-    bfancy đã mang lại cho mình rất nhiều cảm xúc,
-    từ niềm vui, sự ấm áp,
-    cho đến những lúc mệt mỏi nhưng vẫn có người ở bên.
-    Những kỷ niệm ấy có thể nhỏ bé,
-    nhưng lại đủ để mình nhớ rất lâu.
-</p>
+    <p>
+        Trong suốt quãng thời gian đó, bfancy đã mang lại cho mình rất nhiều cảm xúc:
+        từ niềm vui, sự ấm áp, cho đến những lúc mệt mỏi nhưng vẫn có người ở bên.
+        Những kỷ niệm ấy có thể nhỏ bé, nhưng lại đủ để mình nhớ rất lâu.
+    </p>
 
-<p>
-    Dù sau này mỗi người sẽ đi trên một con đường riêng,
-    mình vẫn mong bfancy luôn thật nhiều niềm vui,
-    luôn giữ được sự chân thành và gắn kết như những ngày đầu.
-    Mong rằng ai trong nhóm cũng sẽ mạnh mẽ,
-    bình an và thành công với lựa chọn của riêng mình.
-</p>
+    <p>
+        Cảm ơn bé sứa (Uni), Baby, Lyly, Ceci và Gumi —
+        mỗi người một cách, một màu sắc riêng,
+        nhưng tất cả đều góp phần tạo nên một bfancy rất đặc biệt trong lòng mình.
+        Cảm ơn vì đã cùng nhau chia sẻ, đồng hành
+        và tạo nên những ngày tháng thật đẹp.
+    </p>
 
-<p>
-    Với riêng mình,
-    được trở thành một phần của bfancy từ ngày
-    <span class="highlight">12/10/2025</span>
-    là một điều rất đáng trân trọng.
-    Cảm ơn vì tất cả, vì những điều đã từng
-    và vì cả những ký ức đẹp sẽ luôn ở lại trong tim.
-</p>
+    <p>
+        Dù sau này mỗi người sẽ đi trên một con đường riêng,
+        mình vẫn mong bfancy luôn thật nhiều niềm vui,
+        luôn giữ được sự chân thành, gắn kết và ấm áp như những ngày đầu.
+        Mong rằng ai trong nhóm cũng sẽ mạnh mẽ, bình an
+        và thành công với lựa chọn của riêng mình.
+    </p>
 
-    <div class="signature">
-        — Hiếu —
-    </div>
+    <p>
+        Với riêng mình, được trở thành một phần của bfancy từ ngày 12/10/2025
+        là một điều rất đáng trân trọng.
+        Cảm ơn vì tất cả — vì những điều đã từng
+        và vì cả những ký ức đẹp sẽ luôn ở lại trong tim.
+    </p>
+
+    <div class="signature">— ông địa —</div>
 
     <div class="date">
-        Bắt đầu từ: 12/10/2025 và ngày a bay cấp đầu tiên là ngày 24/10/2025
+        Bắt đầu từ: 12/10/2025<br>
+        Ngày a bay cấp đầu tiên: 24/10/2025
     </div>
 </div>
 
